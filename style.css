@@ -1,0 +1,108 @@
+/* ====== Estilos generales ====== */
+body {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, oklab(76.815% 0.09382 -0.06436), #e0e0e0);
+    color: #000000;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 30px; 
+    font-style: Papyrus;
+}
+
+
+/* ====== Encabezados ====== */
+h1 {
+    background: linear-gradient(90deg, oklab(34.162% 0.12822 -0.07931) , #c9c9c9, oklab(34.162% 0.12822 -0.07931));
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 0 0 20px;
+    font-size: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgb(245, 242, 242);
+    text-shadow: 1px 1px 4px rgba(158, 10, 199, 0.5);
+    letter-spacing: 2px;
+    animation: encabezado-brillo 4s infinite alternate;
+}
+
+/* ====== Párrafos ====== */
+p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* ====== Imágenes ====== */
+img {
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 12px rgba(123, 4, 192, 0.3);
+}
+
+/* ====== Botón de volver ====== */
+a {
+    text-decoration: none;
+    color: white;
+    background: #8246cf;
+    padding: 10px 10px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 5px;
+    transition: background 0.3s;
+}
+
+a:hover {
+    background: #4c03aa8f;
+}
+
+/* ====== Tabla (Horario) ====== */
+table {
+    margin: auto;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+th {
+    background: #510491;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* ====== Estilo especial para index ====== */
+.index-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.index-container a {
+    background: none;
+    padding: 0;
+}
+
+.index-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #5002b8a4;
+}
+
+.index-container p {
+    margin-top: 5px;
+    font-weight: bold;
+    color: #63009c;
+}
